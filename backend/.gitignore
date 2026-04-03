@@ -1,0 +1,7 @@
+.env
+gee_map.json
+ndvi_local.db
+.venv/
+__pycache__/
+node_modules/
+backend/.cache_ndvi/

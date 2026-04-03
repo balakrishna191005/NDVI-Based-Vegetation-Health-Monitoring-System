@@ -1,0 +1,7 @@
+﻿gee_map.json
+.env
+.venv/
+frontend/node_modules/
+backend/.cache_ndvi/
+__pycache__/
+

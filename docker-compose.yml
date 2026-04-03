@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ndvi
+      POSTGRES_PASSWORD: ndvi
+      POSTGRES_DB: ndvi_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ndvi_pgdata:/var/lib/postgresql/data
+
+volumes:
+  ndvi_pgdata:
